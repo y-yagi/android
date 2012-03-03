@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">  
+>
+<TextView
+android:id="@+id/widget39"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="宛先"
+android:layout_gravity="center_vertical|center_horizontal|center" >
+>
+</TextView>
+
+<EditText
+android:id="@+id/address"
+android:layout_width="273px"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="18sp"
+android:onClick="clickInputAddress"
+android:layout_marginTop="10dip"
+android:layout_gravity="center_vertical|center_horizontal|center" >
+>
+</EditText>
+
+<TextView
+android:id="@+id/widget39"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="件名"
+android:layout_marginTop="20dip"
+android:layout_gravity="center_vertical|center_horizontal|center" >
+>
+</TextView>
+<EditText
+android:id="@+id/subject"
+android:layout_width="273px"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="18sp"
+android:layout_marginTop="10dip"
+android:layout_gravity="center_vertical|center_horizontal|center" >
+>
+</EditText>
+<TextView
+android:id="@+id/widget39"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="本文"
+android:layout_marginTop="20dip"
+android:layout_gravity="center_vertical|center_horizontal|center" 
+>
+</TextView>
+<EditText
+android:id="@+id/body"
+android:layout_width="273px"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="18sp"
+android:layout_marginTop="10dip"
+android:layout_gravity="center_vertical|center_horizontal|center" >
+>
+</EditText>
+<Button
+android:id="@+id/mail_send_button"
+android:layout_width="99px"
+android:layout_height="wrap_content"
+android:text="登録"
+android:onClick="clickRegist"
+android:layout_marginTop="40dip"
+android:layout_gravity="center_vertical|center_horizontal|center" >
+>
+</Button>
+</LinearLayout>
